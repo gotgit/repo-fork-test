@@ -1,0 +1,5 @@
+version: "0.1"
+rules:
+  - base: main
+    upstream: gotgit:main
+    merge_action: merge
